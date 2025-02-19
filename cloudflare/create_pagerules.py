@@ -4,6 +4,7 @@
 This is a Python Script for Cloudflare's DNS API
 (c) 2025 by av8rgeek systems, llc
 This script is licensed under the MIT License.
+No warranty is expressed or implied.
 
 This script reads from a CSV file containing the following columns:
 zone_name,status,match_url,action,destination,httpcode,priority

@@ -3,7 +3,13 @@
 '''
 This is a Python Script for Cloudflare's DNS API 
 (c) 2025 by av8rgeek systems, llc
-This script is licensed under the MIT License.
+This script is licensed under the MIT License.\
+No warranty is expressed or implied.
+
+This script reads the Cloudflare API for all of the Page Rules
+for a given zone and outputs the data to the console.
+This script has been updated to reflect the Cloudflare Python SDK v4.0.0,
+    but has not been tested for functionality.  Please test before using in production.
 '''
 import os
 import sys
